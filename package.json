@@ -1,21 +1,27 @@
 {
-  "name": "next-with-antd",
+  "name": "Exodia",
   "version": "1.0.0",
-  "repository": "https://github.com/hanpama/next-with-antd",
-  "description": "",
+  "repository": "",
+  "description": "Digital Collectibles homepage",
   "keywords": [],
-  "author": "Max Choi",
+  "author": "Amir Hagafny",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon server/server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production nodemon server/server.js"
   },
   "license": "ISC",
   "dependencies": {
     "antd": "^3.8.1",
     "babel-plugin-import": "^1.8.0",
     "babel-plugin-inline-import": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "mongoose": "^5.3.8",
     "next": "latest",
+    "next-routes": "^1.4.2",
+    "nodemon": "^1.18.5",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
